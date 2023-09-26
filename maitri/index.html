@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
         integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
         crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
     <!-- Custom CSS style sheet -->
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Coding Sisters | A website for keen coders!</title>
@@ -41,6 +43,34 @@
 </head>
 
 <body>
+    <!-- chat -->
+<section>
+
+    <button class="chat-btn">
+        <i class="material-icons"> comment </i>
+    </button>
+
+    <div class="chat-popup">
+        <div class="badge">1</div>
+        <div class="chat-area">
+            <div class="income-msg">
+                <img src="img/person.jpg" class="avatar" alt="">
+                <span class="msg"> Hi, How can I help you?</span>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text">
+            <button id="emoji-btn"> &#127773;</button>
+            <button class="submit"> <i class="material-icons"> send</i></button>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+<script src="main.js"></script>
+    <!-- chatclose -->
     <div class="container landing"
         style="background-image: url('assets/images/bg-pattern-top.svg'), url('assets/images/bg-pattern-bottom.svg');">
         <!-- Navbar -->
@@ -122,33 +152,25 @@
                 </div>
                 <div class="container-fluid">
                     <div class="row">
-                        <h2 class="rolemodels-info">
+                        <h1 class="rolemodels-info">
                             <i class="fas fa-arrow-circle-right"></i>
-                            Tip! Hold your pointer over the card to read the backside text</h2>
+                            <b>Steps to Prevent sexual harassment</b></h1>
                         <div class="col-12 col-md-6 col-lg-4 mt-5 px-2">
                             <div class="flip-card p-3">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img class="flip-card-img mt-2" src="./assets/images/ada_lovelace.jpg"
+                                        <img class="flip-card-img mt-2" src="./assets/images/speakup.jpg"
                                             alt="Portrait of Ada Lovelace wearing a victorian dress">
                                         <div class="front-text">
-                                            <p>Ada Lovelace 1815 - 1852</p>
+                                            <h1>Speak-up</h1>
                                         </div>
                                     </div>
                                     <div class="flip-card-back">
-                                        <p>Ada Lovelace was a british matemathician who wrote the first ever algorithm
-                                            meant
-                                            for being used by a machine – and is therefore described as the world’s
-                                            first
-                                            programmer. She was
-                                            remarkable in many ways, not only did she create a very complex program for
-                                            finding ”Bernoulli’s number” (a commonly occuring sequence of numbers in
-                                            number
-                                            theory) – she also understood the potential of computing and that it
-                                            actually
-                                            could be used for almost any area including art or music,long before this
-                                            wide
-                                            use was beginning to evolve. </p>
+                                        <h5><b>Speaking out:</b> Speaking about sexual harassment is an effective tool in combating it. While speaking about it, the
+                                        problem becomes visible, it is acknowledged that it exists, and this in turn leads one to take effective measures
+                                        against it. Speaking about sexual harassment also gives an opportunity to clarify this about it. It helps in changing
+                                        the attitudes of people towards this issue. Speaking about it creates an enabling environment for the victim to speak
+                                        out.</h5>
                                     </div>
                                 </div>
                             </div>
@@ -157,29 +179,17 @@
                             <div class="flip-card p-3">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img class="flip-card-img mt-2" src="./assets/images/grace_hopper.jpg"
+                                        <img class="flip-card-img mt-2" src="./assets/images/sayno.jpg"
                                             alt="Portrait of Grace Hopper in uniform, at an older age">
                                         <div class="front-text">
-                                            <p>Grace Hopper 1906 - 1992</p>
+                                           <h1>Say No</h1>
                                         </div>
                                     </div>
                                     <div class="flip-card-back">
-                                        <p>Grace Hopper was both a computer scientist and a lieutanant in the american
-                                            navy.
-                                            She is one of the world’s most accomplished computer scientists, as she was
-                                            part
-                                            of the team at Harvard that built the
-                                            worlds first computer, then participated in building the world’s first
-                                            commercial computer and also invented the programming language COBOL, which
-                                            is
-                                            still in use. In fact,she came up with the idea of using compilations
-                                            (programs
-                                            that interpret text into machine code) instead of programming the computers
-                                            by
-                                            hand. She is also known for coining the term ”bug” and ”debugging”for
-                                            solving
-                                            issues inthe code.
-                                        </p>
+                                        <h5><b>Set your own boundaries:</b> Say “NO” emphatically and clearly when you are asked to go places, do things, respond to
+                                        questions, or engage in situations that make you uncomfortable. Do not worry about offending the other person or hurting
+                                        his or her ego. Take care of yourself first.
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
@@ -188,28 +198,19 @@
                             <div class="flip-card p-3">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img class="flip-card-img mt-2" src="./assets/images/katherine_johnson.jpg"
+                                        <img class="flip-card-img mt-2" src="./assets/images/tell.jpg"
                                             alt="BLack and white photo of Katherine Johnson sitting at her desk, smiling">
                                         <div class="front-text">
-                                            <p>Katherine Johnson 1919 - 2020</p>
+                                           <h1>Tell Someone</h1>
                                         </div>
                                     </div>
                                     <div class="flip-card-back">
-                                        <p>Katherine Johnson was a mathemathician who 1939 was accepted to West Wirginia
-                                            university as one of three african-amercian students there. She later worked
-                                            at
-                                            NACA (now NASA) where
-                                            she, Dorothy Vaughan and Mary Jackson analyzed data from plane crashes.
-                                            Their
-                                            advanced mathematic
-                                            calucations were later used for the first manned space-missions. Katherine
-                                            Johnson was so well-known her competence that the first man going in to
-                                            space,
-                                            John Glenn, was about to embark on his journey
-                                            he asked for Katherine to maually double-check the computers calculations to
-                                            make sure they were
-                                            correct.
-                                        </p>
+                                        <h6><b>Create a Witness to the behavior:</b> Inform a trusted colleague and try to ensure that s/he is an eye or ear witness to a
+                                        situation where you are being sexually harassed. This will be useful later if you chose to file a formal complaint. Send
+                                        a copy of the sexual harassment policy/rules to the harasser. If your workplace already has an anti-sexual harassment
+                                        policy or the conduct rules of your institution prohibit sexual harassment, send a copy of the institution
+                                        policy/conduct rules to the harasser with the appropriate sections underlined.
+                                        </h6>
                                     </div>
                                 </div>
                             </div>
@@ -218,23 +219,17 @@
                             <div class="flip-card p-3">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img class="flip-card-img mt-2" src="./assets/images/hedy_lamarr.jpg"
-                                            alt="Signed idol portrait of Hedy Lamarr with red background">
+                                        <img class="flip-card-img mt-2" src="./assets/images/report.jpg"
+                                            alt="Signed idol portrait of Hedy Lamarr with red background" height="300px">
                                         <div class="front-text">
-                                            <p>Hedy Lamarr 1914 - 2000</p>
+                                            <h1>Report Complaint</h1>
                                         </div>
 
                                     </div>
                                     <div class="flip-card-back">
-                                        <p>Hedy Lamarr was both a Hollywood actress and a scientist and inventor. She
-                                            invented a communication
-                                            system that was used by the Allies for winning the war. Her communication
-                                            system
-                                            allowed for tracking missiles under water without them being detected. She
-                                            patented this technology
-                                            but despite that was never compensated for the military’s use of it. Her
-                                            technology also later became
-                                            the basis for technologies such as WiFi, GPS and bluetooth. </p>
+                                        <h4><b>Report sexual harassment to the appropriate person in the organization:</b> Explore the different avenues available to you
+                                        and file a formal complaint if necessary. If your organization does not have a policy, ensure that your employer
+                                        formulates an anti-sexual harassment policy and carries out all the connected tasks </h4>
                                     </div>
                                 </div>
                             </div>
@@ -243,26 +238,17 @@
                             <div class="flip-card p-3">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img class="flip-card-img mt-2" src="./assets/images/radia_perlman.jpg"
-                                            alt="hoto of Radia Perlman, smiling an holding and open book in her hands">
+                                        <img class="flip-card-img mt-2" src="./assets/images/law.jpg"
+                                            alt="hoto of Radia Perlman, smiling an holding and open book in her hands" height="300px">
                                         <div class="front-text">
-                                            <p>Radia Perlman 1951 - </p>
+                                            <h1>Aware of policies </h1>
                                         </div>
                                     </div>
                                     <div class="flip-card-back">
-                                        <p>Radia Perlman is a network engineer and a software designer known as ”the
-                                            mother
-                                            of the internet”. She was one of few female students at MIT where she sudied
-                                            her
-                                            master in
-                                            mathematics. She worked part time as an AI-programmer during her studies and
-                                            doctorated with a thesis on networklayers protocol.
-                                            She eventually went on to patent more than 100 network-related inventions,
-                                            among
-                                            them the STP protocol that still underpins much of the internets
-                                            functionality
-                                            and networking science.
-                                        </p>
+                                        <h5><b>Sensitization</b> is directly known to reduce the incidence of sexual harassment and building a better workplace as men who
+                                        are aware of it and its consequences will be less likely to indulge in such acts. A good onboarding strategy will ensure
+                                        that suspicions about misuse of the Act in the minds of the target audience are paid due attention to and addressed.
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
@@ -271,24 +257,16 @@
                             <div class="flip-card p-3">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img class="flip-card-img mt-2" src="./assets/images/karen_spärckjones.jpg"
-                                            alt="Photo of Karen Spärck Jones at older age, slighlty smiling">
+                                        <img class="flip-card-img mt-2" src="./assets/images/aware.png"
+                                            alt="Photo of Karen Spärck Jones at older age, slighlty smiling" height="300px">
                                         <div class="front-text">
-                                            <p>Karen Spärck Jones 1935 - 2007</p>
+                                            <h1>Be Aware</h1>
                                         </div>
                                     </div>
                                     <div class="flip-card-back">
-                                        <p>Karen Spärck Jones was a britith data scientist known for her work on search
-                                            algorithms. She came up with a method for counting the times a phrases
-                                            exists in
-                                            a document, that laid the foundation for the development of search engines.
-                                            She
-                                            also pioneered the field of computer’s user friendliness by pursuing the
-                                            idea
-                                            that the computer should be programmed to understand regular text input by
-                                            the
-                                            rather the user having to learn to code to be able to use the computer.
-                                        </p>
+                                        <h4><b>Be aware</b> and conscious of engaging in potential sexual-harassment behaviors or incidents at work;
+                                             be sensitive to individuals who may be offended by the verbal and non-verbal behavior of others; be aware of subtle forms of sexual harassment;watch for and discourage sexual behaviors that negatively affect work.
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -298,20 +276,16 @@
                             <div class="flip-card p-3">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img class="flip-card-img mt-2" src="./assets/images/portrait.png"
-                                            alt="Anonymous portrait photo of drawn woman">
+                                        <img class="flip-card-img mt-2" src="./assets/images/self-defense.jpg"
+                                            alt="Anonymous portrait photo of drawn woman" height="300px">
                                         <div class="front-text">
-                                            <p>You ?</p>
+                                            <h1>Training</h1>
                                         </div>
                                     </div>
                                     <div class="flip-card-back">
-                                        <p>What great ideas do you have that can change the way things are done? What
-                                            are
-                                            your strenghts and where do you thrive? If you want someone to accompany you
-                                            on
-                                            the journey of finding your place in the world of code - fill out the form
-                                            at the bottom of our
-                                            page to be matched with a mentor/sister!</p>
+                                        <h4>Prevention of sexual harassment in the workplace requires training programs for both employers and employees, which
+                                        concretely address such topics as the national laws that prohibit sexual harassment, creating workplace polices and
+                                        steps that individuals can take.</h4>
                                     </div>
                                     <div class="col-4"></div>
                                 </div>
