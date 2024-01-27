@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body {
   background-color: rgb(253, 245, 203);
   padding: 40px;
@@ -35,3 +36,35 @@ body {
   overflow: hidden;
   transition: max-height 0.2s;
 }
+
+
+/* 
+.blinking-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db;
+  color:#3498db;
+  border: none;
+  border-radius: 5px;
+  animation: blink 1.5s infinite;
+}
+
+
+ @keyframes blink {
+   0% {
+     opacity: 1;
+   }
+
+   50% {
+     opacity: 0;
+   }
+
+   100% {
+     opacity: 1;
+   }
+ } */
+
+ 
