@@ -50,6 +50,7 @@
           opacity: 0;
         }
       }
+
       .dropbtn {
         /* background-color: #04aa6d; */
         /* color: white; */
@@ -89,6 +90,32 @@
 
       .dropdown:hover .dropbtn {
         /* background-color: #3e8e41; */
+      }
+
+      .blinking-button {
+        position: relative;
+        top: 10px; /* You can adjust the top value to change the vertical position */
+        right: -200px;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(255, 0, 174);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        animation: blink 1.5s infinite;
+      }
+
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
       }
     </style>
   </head>
@@ -143,6 +170,9 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+
+            <button class="blinking-button">ChatBot!</button>
+
             <div
               class="collapse navbar-collapse nav justify-content-end"
               id="navbarSupportedContent"
