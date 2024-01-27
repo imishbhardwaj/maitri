@@ -35,3 +35,38 @@ body {
   overflow: hidden;
   transition: max-height 0.2s;
 }
+
+header ul .submenu {
+  position: absolute;
+  width: 200px;
+  background-color: #ffffff;
+  box-shadow: 0 20px 45px #00000000;
+  margin-top: -50px;
+  opacity: 0;
+  z-index: -999;
+  transition: all ease 0.5s;
+}
+
+header ul li:hover .submenu {
+  z-index: 99;
+  opacity: 1;
+  margin-top: 0;
+}
+
+header ul .submenu li {
+  margin: 0;
+  width: 100%;
+}
+
+header ul .submenu li a {
+  padding: 15px 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.hero_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

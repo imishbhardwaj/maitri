@@ -50,6 +50,46 @@
           opacity: 0;
         }
       }
+      .dropbtn {
+        /* background-color: #04aa6d; */
+        /* color: white; */
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        /* background-color: #f1f1f1; */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgb(255, 254, 254);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        /* color: rgb(255, 255, 255); */
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        /* background-color: #ddd; */
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+        /* background-color: #3e8e41; */
+      }
     </style>
   </head>
 
@@ -122,14 +162,19 @@
                   <a class="nav-link navhome" href="mentors.html">Events </a>
                 </li>
                 <li class="nav-item navhome">
-                  <a class="nav-link" href="resources.html">Resource Library</a>
+                  <!-- <a class="nav-link" href="resources.html">Resource Library</a> -->
+                  <div class="dropdown">
+                    <a class="dropbtn">Resources</a>
+                    <!-- <button class="dropbtn">Resource Library</button> -->
+                    <div class="dropdown-content">
+                      <a class="nav-link" href="resources.html"
+                        >Resource Library</a
+                      >
+                      <a class="nav-link" href="faq.html">FAQs</a>
+                      <a class="nav-link" href="fir filling.html">FIR Filing</a>
+                    </div>
+                  </div>
                   <link rel="stylesheet" href="index.css" />
-                </li>
-                <li class="nav-item navhome">
-                  <a class="nav-link" href="faq.html">FAQs</a>
-                </li>
-                <li class="nav-item navhome">
-                  <a class="nav-link" href="fir filling.html">FIR Filing</a>
                 </li>
               </ul>
             </div>
@@ -429,9 +474,7 @@
           <div class="col">
             <h2>Visit us!</h2>
             <!-- Mentors Github links -->
-            <ul class="github-links">
-            
-            </ul>
+            <ul class="github-links"></ul>
           </div>
         </div>
       </div>
