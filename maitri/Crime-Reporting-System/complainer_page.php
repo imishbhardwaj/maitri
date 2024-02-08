@@ -154,12 +154,13 @@ if(isset($_POST['s'])){
 					<select class="form-control" name="type_crime">
 						<option>Theft</option>
 						<option>Robbery</option>
-                        <option>Pick Pocket</option>
-                        <option>Murder</option>
+                        <option>Sexual Harrassment</option>
+                        <option>Ogling</option>
                         <option>Rape</option>
                         <option>Molestation</option>
-                        <option>Kidnapping</option>
-                        <option>Missing Person</option>
+                        <option>Stalking</option>
+                        <option>Ogling</option>
+                        <option>Groping</option>
 				    </select>
 				</div>
 					<div class="Top-w3-agile" style="color: gray">
