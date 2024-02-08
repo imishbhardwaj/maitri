@@ -27,7 +27,7 @@ session_start();
     $result=mysqli_query($conn,$query);  
 ?>
 
-	<title>HQ Homepage</title>
+	<title>NGO Homepage</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -62,8 +62,8 @@ session_start();
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li ><a href="official_login.php">Official Login</a></li>
-        <li ><a href="headlogin.php">HQ Login</a></li>
-        <li class="active"><a href="headHome.php">HQ Home</a></li>
+        <li ><a href="headlogin.php">NGO Login</a></li>
+        <li class="active"><a href="headHome.php">NGO Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="active" ><a href="headHome.php">View Complaints</a></li>

@@ -35,9 +35,9 @@
             <div class="col-md-4 col-sm-12 hero-feature">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h3>Police Login</h3>
+                        <h3>Admin Login</h3>
                         <p>
-                            <a href="policelogin.php" class="btn btn-primary">Police Login</a>
+                            <a href="policelogin.php" class="btn btn-primary">Admin Login</a>
                         </p>
                     </div>
                 </div>
@@ -46,9 +46,9 @@
             <div class="col-md-4 col-sm-12 hero-feature">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h3>Incharge Login</h3>
+                        <h3>Organization Login</h3>
                         <p>
-                            <a href="inchargelogin.php" class="btn btn-primary">Incharge Login</a>
+                            <a href="inchargelogin.php" class="btn btn-primary">Organization Login</a>
                         </p>
                     </div>
                 </div>
@@ -57,9 +57,9 @@
             <div class="col-md-4 col-sm-12 hero-feature">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h3>HQ Login</h3>
+                        <h3>NGO Login</h3>
                         <p>
-                            <a href="headlogin.php" class="btn btn-primary">HQ Login</a>
+                            <a href="headlogin.php" class="btn btn-primary">NGO Login</a>
                         
                         </p>
                     </div>

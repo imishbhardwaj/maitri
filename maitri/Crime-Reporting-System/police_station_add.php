@@ -95,8 +95,8 @@ if(isset($_POST['s'])){
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li ><a href="official_login.php">HQ Login</a></li>
-        <li><a href="headHome.php">HQ Home</a></li>
+        <li ><a href="official_login.php">NGO Login</a></li>
+        <li><a href="headHome.php">NGO Home</a></li>
       </ul>
      
       <ul class="nav navbar-nav navbar-right">

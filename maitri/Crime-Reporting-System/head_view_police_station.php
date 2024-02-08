@@ -41,7 +41,7 @@
         <li><a href="official_login.php">Official Login</a></li>
            
         <li><a href="headlogin.php">Head Login</a></li>
-        <li class="active"><a href="head_view_police_station.php">HQ Home</a></li>
+        <li class="active"><a href="head_view_police_station.php">NGO Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="headHome.php">View Complaints</a></li>

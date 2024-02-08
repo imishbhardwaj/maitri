@@ -50,7 +50,7 @@ if(isset($_POST['s']))
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="official_login.php">Official Login</a></li>
-        <li class="active"><a href="headlogin.php">HQ Login</a></li>
+        <li class="active"><a href="headlogin.php">NGO Login</a></li>
       </ul>
     
     </div>
@@ -60,7 +60,7 @@ if(isset($_POST['s']))
   <div class="form" style="margin-top: 15%">
     <form method="post">
   <div class="form-group" style="width: 30%">
-    <label for="exampleInputEmail1"  ><h1 style="color:white">HQ Id</h1></label>
+    <label for="exampleInputEmail1"  ><h1 style="color:white">NGO Id</h1></label>
     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" size="5" placeholder="Enter user id" required>
      </div>
   <div class="form-group" style="width:30%">
