@@ -60,7 +60,7 @@ if(isset($_POST['s']))
   <div class="form" style="margin-top: 15%">
     <form method="post">
   <div class="form-group" style="width: 30%">
-    <label for="exampleInputEmail1"  ><h1 style="color:white">NGO Id</h1></label>
+    <label for="exampleInputEmail1"  ><h1 style="color:">NGO Id</h1></label>
     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" size="5" placeholder="Enter user id" required>
      </div>
   <div class="form-group" style="width:30%">
